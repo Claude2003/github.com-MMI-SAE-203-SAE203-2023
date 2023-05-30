@@ -1,7 +1,7 @@
-- Nom:
-- Prénom:
+- Nom: MALANDA SAMBA
+- Prénom: Claude Rolia 
 - URL du site:
-- Url de la maquette :
+- Url de la maquette : https://www.figma.com/file/LumZJbV2bdo9U9oZ5jli8L/maquette-pour-CLAUDE-MALAMDA-SAMBA?type=design&node-id=1-1042&t=qZFE45YWQlsQ4ys3-0
 
 # Sujet : Description de la SAE
 
