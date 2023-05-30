@@ -67,7 +67,7 @@ Assurez-vous que vous rendez les fichiers suivants (liens) :
 
 - [ ] [backend](/pocketbase/backend.mjs)
 - [ ] [test backen](/pocketbase/testback.js)
-- [ ] [MCD](/pocketbase/MCD.pdf)
+- [ ] [MCD](file:///C:/Users/mmipret/Downloads/MCD_malanda_samba.pdf)
 
 ## Consignes Développent web (Pierre Pracht)
 
