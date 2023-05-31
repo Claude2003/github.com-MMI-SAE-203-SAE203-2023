@@ -1,17 +1,21 @@
 <script setup lang="ts">
-// a completer
+import { RouterLink, RouterView } from 'vue-router'
+import Header from './components/header.vue'
+import Footer from './components/footer.vue'
+import contact from '@/pages/sous dossier/contact.vue'
+import bouton from '@/components/bouton.vue'
 </script>
 
-<template>
-  <header>
-    <h1 class="text-4xl">Test</h1>
-  </header>
 
-  <main>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae et dolorem odit
-      beatae illo labore, praesentium quidem nulla eveniet, at voluptatem incidunt. Eaque explicabo,
-      vitae quibusdam vero quod atque.
-    </p>
-  </main>
+
+<template>
+  
+  
+
+  <!-- Les pages s'affichent ici -->
+  <RouterView />
+  <Header/>
+  <bouton/>
+  <contact/>
+<Footer/>
 </template>
