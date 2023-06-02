@@ -67,7 +67,7 @@ Assurez-vous que vous rendez les fichiers suivants (liens) :
 
 - [ ] [backend](/pocketbase1/backend.mjs)
 - [ ] [test backen](/pocketbase1/testBack.js)
-- [ ] [MCD] (/pocketbase1/testback.js)
+- [ ] [MCD] (/pocketbase1/MCD.pdf)
 
 ## Consignes Développent web (Pierre Pracht)
 
