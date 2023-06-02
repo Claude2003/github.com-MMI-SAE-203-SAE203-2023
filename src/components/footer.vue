@@ -9,16 +9,16 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <footer class="bg-gray-900 text-white py-8 px-10 flex flex-col items-start sm:items-center">
+  <footer class=" bg-gris-clair text-white py-8 px-10 flex flex-col items-start sm:items-center">
   <nav class="space-y-3">
     <ul>
-      <li><a href="#" class="font-bold">Contacter-nous</a></li>
-      <li><a href="#" class="font-bold">Billetterie</a></li>
-      <li><a href="#" class="font-bold">Mentions légales</a></li>
+      <li><a href="#" class="font-bold text-blanc">Contacter-nous</a></li>
+      <li><a href="#" class="font-bold text-blanc">Billetterie</a></li>
+      <li><a href="#" class="font-bold text-blanc">Mentions légales</a></li>
       <li class="sm:hidden">
-        <hr class="border-t border-white  my-4 w-80">
+        <hr class="border-t border-blanc  my-4 w-80">
       </li>
-      <li><a href="#" class="font-bold">Suivez-nous</a></li>
+      <li><a href="#" class="font-bold text-blanc">Suivez-nous</a></li>
    
     </ul>
   </nav>
@@ -45,11 +45,7 @@ import { RouterLink } from 'vue-router'
           <InstagramIcon />
         </a>
       </li>
-      <li>
-        <a href="https://mmi-montbeliard.nathanvanbignootvincler.fr/" aria-label="MMI" class="font-bold">
-          <MMI/>
-        </a>
-      </li>
+      
     </ul>
   </div>
 </footer>

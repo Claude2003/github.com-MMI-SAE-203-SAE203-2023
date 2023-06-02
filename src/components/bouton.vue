@@ -9,41 +9,25 @@ import { RouterLink } from 'vue-router'
 
 
  <template>
-   <div class="flex justify-center">
-    <div class="inline-flex" role="group">
-      <button
-        type="button"
-        class="w-1/4 md:w-auto rounded-l border-2 border-primary px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-        data-te-ripple-init
-        data-te-ripple-color="light"
-      >
-        Artiste
-      </button>
-      <button
-        type="button"
-        class="-ml-0.5 w-1/4 md:w-auto border-2 border-primary px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-        data-te-ripple-init
-        data-te-ripple-color="light"
-      >
-        A girl
-      </button>
-      <button
-        type="button"
-        class="-ml-0.5 w-1/4 md:w-auto rounded-r border-2 border-primary px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-        data-te-ripple-init
-        data-te-ripple-color="light"
-      >
-        Atelier
-      </button>
-      <button
-        type="button"
-        class="-ml-0.5 w-1/4 md:w-auto rounded-r border-2 border-primary px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-        data-te-ripple-init
-        data-te-ripple-color="light"
-      >
-        frise
-      </button>
-    </div>
+<div class="flex justify-center font-indie-flower lg:mt-8">
+  <div class="inline-flex rounded-md shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-gris-fonce hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-gris-fonce focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0" role="group">
+    <router-link to="/Mariegabrielle" class=" border border-gris-fonce inline-block rounded-l bg-blanc px-7 pb-2.5 pt-3 text-sm  uppercase leading-normal text-gris-fonce transition duration-150 ease-in-out hover:bg-gris-fonce focus:gris-fonce focus:outline-none focus:ring-0 active:bg-gris-fonce" data-te-ripple-init data-te-ripple-color="light">
+      Artiste
+    </router-link>
+    <router-link to="/agirl" class=" border border-gris-fonce inline-block bg-blanc px-7 pb-2.5 pt-3 text-sm uppercase leading-normal text-gris-foncetransition duration-150 ease-in-out hover:bg-gris-fonce focus:bg-gris-fonce focus:outline-none focus:ring-0 active:bg- bg-gris" data-te-ripple-init data-te-ripple-color="light">
+      A gril
+    </router-link>
+    <router-link to="/Atelier" class="border border-gris-fonce inline-block rounded-r bg-blanc px-7 pb-2.5 pt-3 text-sm  uppercase leading-normal text-gris-fonce transition duration-150 ease-in-out hover:bg-gris-fonce focus:bg-gris-fonce focus:outline-none focus:ring-0 active:bg-gris-fonce" data-te-ripple-init data-te-ripple-color="light">
+      Atelier
+    </router-link>
+    <router-link to="/frise" class="border border-gris-fonce inline-block rounded-r bg-blanc px-7 pb-2.5 pt-3 text-sm  uppercase leading-normal text-gris-fonce transition duration-150 ease-in-out hover:bg-gris-fonce focus:bg-gris-fonce focus:outline-none focus:ring-0 active:bg-gris-fonce" data-te-ripple-init data-te-ripple-color="light">
+      Frise
+    </router-link>
   </div>
+</div>
+
+  
+
+
 
 </template>

@@ -5,11 +5,11 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     colors: {
-    rouge: "#ff2d5f",
-    "gris foncé": "#414968",
-    "gris clair": "#575165",
-    blanc: "#ffffff",
-    lightblue: "#ebedff"
+      rouge: "#ff2d5f",
+      "gris-fonce": "#414968",
+      "gris-clair": "#575165",
+      blanc: "#ffffff",
+      lightblue: "#ebedff"
    },
    fontSize: {
     sm: "0.75rem",

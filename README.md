@@ -65,9 +65,9 @@ Voici les attendus concernant cette partie :
 
 Assurez-vous que vous rendez les fichiers suivants (liens) :
 
-- [ ] [backend](/pocketbase/backend.mjs)
-- [ ] [test backen](/pocketbase/testback.js)
-- [ ] [MCD] )file:///C:/Users/mmipret/Downloads/MCD_malanda_samba.pdf )
+- [ ] [backend](/pocketbase1/backend.mjs)
+- [ ] [test backen](/pocketbase1/testBack.js)
+- [ ] [MCD] (/pocketbase1/testback.js)
 
 ## Consignes Développent web (Pierre Pracht)
 
