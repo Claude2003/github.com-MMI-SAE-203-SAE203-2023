@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router'
 import  CardVue from '@/components/Card.vue';
 import hero from '@/components/hero.vue'
 import { allMArtistes } from '@/backend';
-
+import carrousel from '@/components/Caroussel.vue'
 const artisteListe = await allMArtistes();
   
 
@@ -19,7 +19,7 @@ const artisteListe = await allMArtistes();
     <RouterLink to="/infos">En savoir plus</RouterLink>
   </button>
 </div>
-
+<carrousel/>
   <main>
     
     <CardVue  v-for="unartiste in artisteListe" :key="unartiste.id"
