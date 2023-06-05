@@ -115,12 +115,12 @@ Barème de l'évaluation :
 
 Renseigner les informations suivantes :
 
-- [ ] Donnez l'adresse IP de votre VPS :
+- [ ] Donnez l'adresse IP de votre VPS : 193.168.146.17
 
-- [ ] Donnez le login et le mot de passe admin du compte pocketbase :
+- [ ] Donnez le login et le mot de passe admin du compte pocketbase : claudemalanda32@gmail.com / Gredelia2007
 
-- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
+- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :http://193.168.146.17/_/
 
-- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
+- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :http://193.168.146.17/
 
-- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
+- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :https://sae3.claudesamba.fr/
