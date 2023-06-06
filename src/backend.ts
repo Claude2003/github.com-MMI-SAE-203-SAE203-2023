@@ -1,6 +1,6 @@
 import PocketBase from 'pocketbase' ;
 import type { ArtistesResponse } from './pocketbase-types';
-export const pb = new PocketBase('http://193.168.146.17:8090') ;
+export const pb = new PocketBase('http://193.168.146.17:80') ;
 
 // 5) récupérer la liste de tous les artistes
 
